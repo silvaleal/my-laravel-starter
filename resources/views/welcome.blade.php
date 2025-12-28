@@ -1,5 +1,5 @@
 <x-app-layout>
-    <header>
+    <header class="h-screen">
         <section class="w-full flex items-center justify-between px-8 py-6">
             <div class="flex items-center space-x-2">
                 <span class="text-xl font-semibold">{{env('APP_NAME')}}</span>
@@ -30,52 +30,6 @@
             </button>
         </section>
     </header>
-
-    <section class="px-8 md:px-20 py-16">
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-12 text-center text-white">
-
-            <div>
-                <div class="flex justify-center mb-4">
-                    <div class="w-10 h-10 border border-gray-400 rounded-full">1</div>
-                </div>
-                <h3 class="text-xl font-semibold">1</h3>
-                <p class="text-gray-400 mt-2">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aspernatur quisquam eius! Quis quo a laborum reiciendis consequuntur ab laboriosam sit modi officiis aperiam minima fugit velit, doloribus doloremque nostrum.
-                </p>
-            </div>
-
-           <div>
-                <div class="flex justify-center mb-4">
-                    <div class="w-10 h-10 border border-gray-400 rounded-full">2</div>
-                </div>
-                <h3 class="text-xl font-semibold">2</h3>
-                <p class="text-gray-400 mt-2">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aspernatur quisquam eius! Quis quo a laborum reiciendis consequuntur ab laboriosam sit modi officiis aperiam minima fugit velit, doloribus doloremque nostrum.
-                </p>
-            </div>
-
-            <div>
-                <div class="flex justify-center mb-4">
-                    <div class="w-10 h-10 border border-gray-400 rounded-full">3</div>
-                </div>
-                <h3 class="text-xl font-semibold">3</h3>
-                <p class="text-gray-400 mt-2">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aspernatur quisquam eius! Quis quo a laborum reiciendis consequuntur ab laboriosam sit modi officiis aperiam minima fugit velit, doloribus doloremque nostrum.
-                </p>
-            </div>
-
-            <div>
-                <div class="flex justify-center mb-4">
-                    <div class="w-10 h-10 border border-gray-400 rounded-full">4</div>
-                </div>
-                <h3 class="text-xl font-semibold">4</h3>
-                <p class="text-gray-400 mt-2">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa aspernatur quisquam eius! Quis quo a laborum reiciendis consequuntur ab laboriosam sit modi officiis aperiam minima fugit velit, doloribus doloremque nostrum.
-                </p>
-            </div>
-
-        </div>
-    </section>
 
     <section class="px-8 md:px-20 py-24 bg-white text-black flex flex-col md:flex-row items-center gap-16">
         <div class="flex-1">
